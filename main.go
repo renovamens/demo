@@ -5,6 +5,9 @@ import (
 	"net/http"
 )
 
+func handler(req *http.Request, w *http.Response) {
+}
+
 func main() {
 	router := gin.Default()
 
